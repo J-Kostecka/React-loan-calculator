@@ -1,0 +1,111 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.form-wrapper {
+  flex: 3;
+  margin: 10px;
+  border: solid 2px lightgray;
+  border-radius: 10px;
+  height: 450px;
+  padding: 4%;
+}
+.calculation-wrapper {
+  flex: 2;
+  margin: 10px;
+  border: solid 2px darkblue;
+  border-radius: 10px;
+  background-color: darkblue;
+  color: white;
+  height: 400px;
+  padding: 20px;
+}
+.notification {
+  background-color: lightgreen;
+  width: 100%;
+  padding-top: 2px;
+  color: green;
+}
+.inputs {
+  position: relative;
+  display: block;
+  text-align: left;
+  margin-top: 40px;
+}
+.inputs input[type="range"] {
+  width: 70%;
+  margin-right: 4%;
+}
+.inputs input[type="number"] {
+  width: 22%;
+  margin-right: 10px;
+  border-radius: 8px;
+  height: 30px;
+  border: solid 1px gray;
+  color: blue;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: right;
+}
+.inputs span {
+  display: inline-block;
+  position: absolute;
+  top: 27px;
+  right: -10px;
+}
+.inputs .texts {
+  position: relative;
+}
+.inputs p {
+  margin: 0;
+  position: absolute;
+  top: 40px;
+}
+.inputs p:last-of-type {
+  right: 30%;
+}
+.fixations {
+  text-align: left;
+  margin-top: 40px;
+}
+.fixations button {
+  background-color: white;
+  margin: 10px;
+  width: 80px;
+  border: solid lightblue 2px;
+  border-radius: 10px;
+}
+.result > div > p {
+  display: inline-block;
+  width: fit-content;
+  float: left;
+}
+.result > div > strong {
+  float: right;
+  clear: both;
+  display: inline-block;
+  position: relative;
+  top: -34px;
+}
+.calculation-wrapper > div > strong {
+  text-align: center;
+  display: block;
+  clear: both;
+}
+.calculation-wrapper > div > button {
+  text-align: center;
+  margin-top: 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.selected {
+  background-color: lightblue !important;
+  border-color: blue !important;
+}
